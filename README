@@ -1,0 +1,20 @@
+■概要
+  VagrantでCodeigniter開発環境作るよ
+
+■ファイル構成
+  - Vagrantfile
+     Vagrantfileです
+     今のところprivate_networkでネットワーク設定してます	
+
+  - bootstrap.sh
+     プロビジョニング用シェルスクリプトです
+     PROJECTNAME, MYSQLPASS を各自書き換えてください
+
+■使い方
+  vagrant up
+
+■動作確認方法
+  hostsに追加↓
+  192.168.33.10 PROJECTNAME.excite.co.jp
+  ブラウザでアクセス↓
+  PROJECTNAME.excite.co.jp
