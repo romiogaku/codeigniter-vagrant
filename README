@@ -4,7 +4,7 @@
 ■ファイル構成
   - Vagrantfile
      Vagrantfileです
-     今のところprivate_networkでネットワーク設定してます	
+     private_networkでネットワーク設定してます
 
   - bootstrap.sh
      プロビジョニング用シェルスクリプトです
